@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./main.css">
+    <title>Binary-Calculator</title>
+</head>
+<body>
+    HackerRank 10 days of JS last task
+    <div class="calc">
+        <div id="res" class="result"></div>
+        <div id="btns" class="btns">
+            <div class="firstRow">
+                <button id="btn0" class="light" onclick='enter0()'>0</button>
+                <button id="btn1" class="light" onclick='enter1()'>1</button>
+                <button id="btnClr" class="green" onclick="clr()">C</button>
+                <button id="btnEql" class="green" onclick='equal()'>=</button>
+            </div>
+            <div class="secondRow">
+                <button id="btnSum" class="black" onclick='enterSum()'>+</button>
+                <button id="btnSub" class="black" onclick='enterSub()'>-</button>
+                <button id="btnMul" class="black" onclick='enterMul()'>*</button>
+                <button id="btnDiv" class="black" onclick='enterDiv()'>/</button>
+            </div>
+        </div>
+    <div></div>
+    <script src="./main.js"></script>
+</body>
+</html>
